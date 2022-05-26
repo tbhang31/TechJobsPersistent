@@ -8,8 +8,8 @@ using TechJobsPersistent.Data;
 namespace TechJobsPersistent.Migrations
 {
     [DbContext(typeof(JobDbContext))]
-    [Migration("20220525163125_InitalMigrations")]
-    partial class InitalMigrations
+    [Migration("20220526174932_InitialMigrations")]
+    partial class InitialMigrations
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
